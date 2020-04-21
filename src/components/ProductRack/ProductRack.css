@@ -1,0 +1,23 @@
+.ProductRack {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1024px) {
+  .ProductRack {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .ProductRack {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .ProductRack {
+    width: 100%;
+  }
+}

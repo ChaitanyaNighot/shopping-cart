@@ -1,0 +1,23 @@
+.productCountLabel {
+  font-size: 0.9rem;
+  float: left;
+}
+
+.sortProduct {
+  float: right;
+  margin-right: 0;
+}
+
+select:hover {
+  border: 1px black solid;
+}
+
+select {
+  border: 1px gray solid;
+  height: 30px;
+}
+
+.productHeader {
+  width: 100%;
+  margin-bottom: 10px;
+}

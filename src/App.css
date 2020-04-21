@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  padding: 20px 2%;
+  max-width: 1200px;
+  margin: 50px auto 0;
+}
+
+/* 
+This is because width below 460
+items should appear below each other, Therefore making it wrap */
+@media only screen and (max-width: 460px) {
+  .App {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    margin-top: 42px;
+  }
+}

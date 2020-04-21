@@ -1,0 +1,133 @@
+.cart {
+  position: fixed;
+  height: 100%;
+  width: 500px;
+  top: 0px;
+  right: -500px;
+  background-color: #1b1a20;
+  box-sizing: border-box;
+}
+
+.cart_bag {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-image: url("./images/bag-icon.png");
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  background-position: 50%;
+  /*  This brings the image in center */
+}
+
+.cart_bag_cart_opened {
+  position: absolute;
+  top: 0px;
+  left: -50px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-image: url("./images/sprite_delete-icon.png");
+  background-repeat: no-repeat;
+  background-color: #1b1a20;
+  background-position: 50%;
+  text-align: center;
+}
+
+.cart_bag_cart_closed {
+  position: absolute;
+  top: 0px;
+  left: -60px;
+  width: 60px;
+  height: 60px;
+  background-color: #1b1a20;
+}
+
+.cart_count {
+  position: absolute;
+  color: #1b1a20;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #eabf00;
+  text-align: center;
+  line-height: 18px;
+  bottom: 5px;
+  right: 7px;
+}
+
+.cart_opened {
+  right: 0px;
+}
+
+.cart_container {
+  height: 100%;
+  overflow-y: scroll;
+  text-align: center;
+  color: #ececec;
+
+  /* on y axis there will be scrollbar */
+}
+
+.cart_header {
+  padding: 40px 0px;
+  text-align: center;
+  color: #ececec;
+}
+
+.cart_title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.cart_footer::before {
+  content: "";
+  width: 100%;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), transparent);
+}
+
+.cart_footer {
+  position: absolute;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+  z-index: 2;
+  box-sizing: border-box;
+  color: #ececec;
+  background-color: #1b1a20;
+  padding: 10%;
+}
+
+.subtotal {
+  width: 20%;
+  color: #5b5a5e;
+  vertical-align: middle;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.subtotal_cost {
+  width: 80%;
+  vertical-align: middle;
+  display: inline-block;
+  color: #eabf00;
+  text-align: right;
+  font-size: 20px;
+  right: 0px;
+}
+
+.btnCheckout {
+  color: #ececec;
+  background-color: #0c0b10;
+  margin-top: 20px;
+  padding: 20px 0px;
+  width: 100%;
+  text-align: center;
+  border: 0px;
+}

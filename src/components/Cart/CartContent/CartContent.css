@@ -1,0 +1,4 @@
+.cart_content {
+  min-height: 300px;
+  padding-bottom: 200px; /* this should be equal to the height of the footer */
+}

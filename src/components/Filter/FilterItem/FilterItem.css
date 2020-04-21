@@ -1,0 +1,46 @@
+.filterItem {
+  position: relative;
+  border-radius: 50%;
+  background-color: #ececec;
+  height: 35px;
+  width: 35px;
+  line-height: 15px;
+  display: inline-block; /* this is so that we can set height and width for the element and 
+                        they can sit beside each other */
+  margin-right: 5px;
+  text-align: center;
+  border: 1px solid transparent;
+  align-items: center;
+  color: #1b1a20;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+}
+
+.filterItemClicked {
+  position: relative;
+  border-radius: 100%;
+  background-color: #1b1a20;
+  height: 35px;
+  width: 35px;
+  display: inline-block; /* this is so that we can set height and width for the element and 
+                        they can sit beside each other */
+  margin-right: 5px;
+  text-align: center;
+  border: 1px solid #1b1a20;
+  align-items: center;
+  color: #ececec;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+}
+
+.filterLabel {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  margin-bottom: -50%;
+}
+
+.filterItem:hover {
+  border: 1px solid black;
+}

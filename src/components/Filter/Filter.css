@@ -1,0 +1,17 @@
+.Filter {
+  width: 15%;
+}
+
+@media only screen and (max-width: 640px) {
+  .Filter {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  body .Filter {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+}
